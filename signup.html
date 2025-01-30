@@ -1,0 +1,128 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page</title>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <div class="signup"><h1>user registration</h1></div>
+            <label for="full names">Full names</label>
+            <input type="text" id="firstname"><br>
+            <label for="text">Username</label>
+            <input type="text" id="username"><br>
+            <label for="email">email</label>
+            <input type="email" id="email"><br>
+            <label for="phone number">phone number</label>
+            <input type="int" id="phone_number" placeholder="+254"><br>
+            <label for="password">password</label>
+            <input type="password" id="password"><br>
+            <button class="id">sign up</button>
+            <p class="id">have an account? <a href="index.html">login</a></p>
+            <div class="footer">copyright 2025</div>
+        </form>
+    </div>
+<style>
+    body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+.container{
+    padding: 30px;
+    width: 400px;
+    box-shadow: 0 0 10px blue;
+    border-radius: 2px;
+    background-color: white;
+}
+input,button{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 12px;
+    border-radius: 3px;
+    margin-top: 20px;
+    outline: none;
+}
+button{
+    color: white;
+    background-color:rgb(5, 80, 5);
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+button:hover{
+    background-color:rgb(7, 190, 7) ;
+}
+input:focus{
+    border-color: brown;
+}
+.signup {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    opacity: 0;
+    color: #ff6347;
+    animation: fadeIn 4s forwards, bounce 20s;
+}
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-30px);
+    }
+
+    60% {
+        transform: translateY(-15px);
+    }
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+</style>
+<script>
+    const images = [
+        '1.jpeg',
+        '3.jpeg',
+        '4.jpeg',
+        '8.jpeg'
+
+    ];
+    let currentIndex = 0;
+    function changeBackground() {
+        document.body.style.backgroundImage = `url(${images[currentIndex]})`;
+        currentIndex = (currentIndex + 1) % images.length
+    }
+    setInterval(changeBackground, 5000);
+    window.onload = changeBackground;
+    const button = document.getElementById("button");
+    button.onclick = function () {
+        alert('registration successful');
+
+    }
+    button.onsubmit = function () {
+
+    }
+</script>
+</body>
+
+</html>

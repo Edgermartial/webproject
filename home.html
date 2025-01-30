@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+</head>
+<body>
+    <div class="container">
+            <ul>
+                <li><a href="home.html">home</a></li>
+                <li><a href="comment and post.html">socialize</a></li>
+                <li><a href="about.html">about</a></li>
+            </ul>
+    </div>
+    <style>
+        body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: ;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    border: 1px solid #ccc;
+    background-color: rgb(60, 252, 43);
+    width: 100%;
+}
+.container ul li{
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 12px;
+    margin-right: 3px;
+    position: relative;
+}
+.container ul li a{
+    color: black;
+}
+.container li a:hover{
+    color: rgb(252, 17, 17) ;
+}
+
+    </style>
+    <script>
+        if(localStorage.getItem('loginSuccessful')=== 'true'){
+            alert('Login successful');
+            localStorage.removeItem('loginSuccessful');
+
+        }
+         const images = [
+                '1.jpeg',
+                '3.jpeg',
+                '4.jpeg'
+
+            ];
+            let currentIndex = 0;
+            function changeBackground() {
+                document.body.style.backgroundImage = `url(${images[currentIndex]})`;
+                currentIndex = (currentIndex + 1) % images.length
+            }
+            setInterval(changeBackground, 5000);
+            window.onload = changeBackground;
+    </script>
+</body>
+</html>
