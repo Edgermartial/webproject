@@ -10,10 +10,15 @@ Table of Contents
 2.	Objectives
 3.	Features
 •	3.1 User Registration
+
 •	3.2 Financial Assistance
+
 •	3.3 Job Training Programs
+
 •	3.4 Legal Support
+
 •	3.5 Social Support Groups
+
 4.	Technical Specifications
 •	4.1 Technologies Used
 •	4.2 Design Considerations
