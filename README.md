@@ -94,14 +94,14 @@ Design Considerations
 Development Process
 
 1.	Planning: Defined project goals, target audience, and key features through brainstorming sessions and user research.
-2.	
-3.	Design: Created wireframes and mockups for the website layout using design tools like Figma or Adobe XD.
-4.	
-5.	Development: Coded the website using HTML, CSS, and JavaScript, implementing each feature iteratively while adhering to best coding practices.
-6.	
-7.	Testing: Conducted usability testing with real users to identify and fix bugs, ensuring a smooth user experience across different devices and browsers.
-8.	
-9.	Deployment: Launched the website on a reliable hosting platform, ensuring proper domain configuration and SSL certification for security.
+   
+2.	Design: Created wireframes and mockups for the website layout using design tools like Figma or Adobe XD.
+	
+3.	Development: Coded the website using HTML, CSS, and JavaScript, implementing each feature iteratively while adhering to best coding practices.
+	
+4.	Testing: Conducted usability testing with real users to identify and fix bugs, ensuring a smooth user experience across different devices and browsers.
+	
+5.	Deployment: Launched the website on a reliable hosting platform, ensuring proper domain configuration and SSL certification for security.
     
 Tools and Frameworks
 
