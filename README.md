@@ -117,6 +117,8 @@ Future Enhancements
 •	Expanded Resources: Increase the range of resources to include mental health support services, childcare options, and wellness programs.
 
 Conclusion
+
 The Single Mothers Social Platform is a vital resource for single mothers seeking connection, support, and empowerment. By providing essential services and fostering a sense of community, this website aims to improve the lives of single mothers worldwide. Through continuous enhancements and user feedback, the platform will evolve to meet the changing needs of its users, ensuring it remains a valuable tool for single mothers everywhere.
+
 LIVE LINK: https://edgermartial.github.io/webproject/
 
